@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="ja" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>設定編 - プロキシ サーバーを使用する - ヘルプ</title>
+<style type="text/css">
+.auto-style1 {
+	margin-left: 40px;
+}
+.h2{
+	color:green;
+}
+</style>
+</head>
+
+<body>
+
+<h1>プロキシ サーバーを使用する - ヘルプ（設定編）</h1>
+<p>使い方については<a href="help.html">こちら</a>、最新情報は<a href="https://sites.google.com/site/curlcloud/app/enable_proxy">こちら</a></p>
+<h2 class="h2">目次</h2>
+<p class="auto-style1">
+<ul>
+	<li>
+	<a href="#gaiyo">概要</a>
+	</li>
+	<li>
+	<a href="#setting">設定方法</a>
+	</li>
+</ul>
+</p>
+<p>&nbsp;</p>
+<h2 class="h2"><a name="gaiyo">概要</a></h2>
+<p class="auto-style1">タイトルやPingの設定を変更します</p>
+<p class="auto-style1">
+<img alt="設定画面" src="settingImage.jpg"></p>
+<p>&nbsp;</p>
+<h2 class="h2"><a name="setting">設定方法</a></h2>
+<h3>全般</h3>
+<p class="auto-style1">
+タイトル：このアプリケーションのタイトルを変更します。空欄にすると、「無効」「有効」のみの表示になり、とてもシンプルになります。</p>
+<p class="auto-style1">
+ヘルプファイル：ヘルプボタンを押したときに表示されるファイルの場所を指定します。通常、設定する必要はありませんが、ヘルプが見られないときに設定します。「%appdir%」と入力すると、アプリのディレクトリを指定できます。</p>
+<h3>Ping</h3>
+<p class="auto-style1"><strong>送信先</strong>：Pingを送信するアドレスを設定します。既定では、「www.google.com」が設定されています。安定している場所に送信しないと、ネットワークにつながらないときに切り分けが難しくなります。</p>
+<p class="auto-style1">
+※<strong>注意</strong>：送信先は、「http://」を除いたアドレス（ホスト名）にしてください。「http://」を付けたままでも通信できるようにしましたが、まだバグがあるかもしれないので、ホスト名を入力してください。</p>
+<p class="auto-style1">例： www.google.com, 74.125.235.178　（IPv6はデバッグ環境がないので、不明）</p>
+<p class="auto-style1"><strong>データを転送できるルーターやゲートウェイの数の上限</strong>：データを送信するときに、ルーターやゲートウェイの通過する数を制限します。が、僕の環境では動きません。（既定では64です）</p>
+<p class="auto-style1"><strong>バイト数</strong>：送信するバイト数を設定します。1から1024まで設定できます。既定では32バイトです</p>
+<p class="auto-style1"><strong>インターネット プロトコル データグラムの断片化を許可する</strong>：インターネット 
+プロトコル データグラムの断片化を許可するかどうかを設定します。既定では、falseです。（僕もわかりません...）</p>
+<h3>リセット</h3>
+<p class="auto-style1">
+このアプリケーションの設定を初期値に戻して、このアプリケーションを再起動します。これにより、不安定な動作がなくなることがあります。</p>
+
+</body>
+
+</html>

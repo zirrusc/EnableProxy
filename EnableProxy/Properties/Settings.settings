@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EnableProxy.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InternetSettingsKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Software\Microsoft\Windows\CurrentVersion\Internet Settings</Value>
+    </Setting>
+    <Setting Name="ProxyEnable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ProxyEnable</Value>
+    </Setting>
+    <Setting Name="ProxyServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ProxyServer</Value>
+    </Setting>
+    <Setting Name="ProxyOverride" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ProxyOverride</Value>
+    </Setting>
+    <Setting Name="ProxyOverrideAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="PingAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">www.google.com</Value>
+    </Setting>
+    <Setting Name="PingTimeOut" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="PingTtl" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">64</Value>
+    </Setting>
+    <Setting Name="PingDontFragment" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PingSendChar" Type="System.Char" Scope="User">
+      <Value Profile="(Default)">A</Value>
+    </Setting>
+    <Setting Name="Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">プロキシ サーバーを使う</Value>
+    </Setting>
+    <Setting Name="helpFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%appdir%\Resources\help.html</Value>
+    </Setting>
+    <Setting Name="appDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">%appdir%</Value>
+    </Setting>
+    <Setting Name="PingByte" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="LocalAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;local&gt;</Value>
+    </Setting>
+    <Setting Name="TopMost" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="VisualStyle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

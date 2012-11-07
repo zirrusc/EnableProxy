@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="ja" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>通常編 - プロキシ サーバーを使用する - ヘルプ</title>
+<style type="text/css">
+.auto-style1 {
+	margin-left: 40px;
+}
+.h2 {
+	color:green;
+}
+.auto-style2 {
+	text-align: right;
+}
+</style>
+</head>
+
+<body>
+
+<h1>プロキシ サーバーを使用する - ヘルプ（通常編）</h1>
+<p class="auto-style2">version:0.1 (alpha)</p>
+<p>設定については<a href="setting.html">こちら</a>、最新情報は<a href="https://sites.google.com/site/curlcloud/app/enable_proxy">こちら</a></p>
+<h2 class="h2">目次</h2>
+<p class="auto-style1">
+<ul>
+	<li>
+	<a href="#gaiyo">概要</a>
+	</li>
+	<li>
+	<a href="#attention">注意</a>
+	</li>
+	<li>
+	<a href="#use">使い方</a>
+	</li>
+	<li>
+	<a href="#license">ライセンス</a>
+	</li>
+	<li>
+	<a href="#other">その他</a>
+	</li>
+</ul>
+</p>
+
+<h2 class="h2"><a name="gaiyo">概要</a></h2>
+<p class="auto-style1">「インターネット オプション」の「LANにプロキシ サーバーを使用する」の設定がわずらわしいので、簡単な操作で切り替えができるようにしました。学校や法人などで、インターネットを接続するのにプロキシサーバーを使っている時に役に立ちます。</p>
+<p class="auto-style1"><img alt="メイン画面" src="topImage.jpg" />&nbsp;</p>
+<p>&nbsp;</p>
+<h2 class="h2"><a name="attention">注意</a></h2>
+<p class="auto-style1">このアプリケーションはレジストリ"HKCU\Software\Microsoft\Windows\CurrentVersion\Internet 
+Settings"以下の内容にアクセスし、編集します。レジストリを扱うので、場合によってはシステムが不安定になることがあります。</p>
+<p class="auto-style1">このアプリを使って設定を適用した後、なぜかログオフ→ログオンしないと設定が反映されない時もあるようです。</p>
+<p class="auto-style1">&nbsp;</p>
+<h2 class="h2"><a name="use">使い方</a></h2>
+<p class="auto-style1">大体の操作は「インターネット オプション」&gt; 接続 &gt; LANの設定 &gt; プロキシ サーバー 
+の内容を抜き出したものです。ただ、このアプリにある「ローカルアドレスでもプロキシ サーバーを使用する」の部分は「インターネット 
+オプション」の設定と逆転しています。</p>
+<h3>LAN にプロキシ サーバーを使用する</h3>
+<p class="auto-style1">オンにすると、LAN にプロキシ サーバーを使用します。教育機関などで必要な時に設定します。アドレスやポートも入力してください。</p>
+<h3>ローカル アドレスでもプロキシ サーバーを使用する</h3>
+<p class="auto-style1">オフにしてもオンのような動きになるときもあるようですが、それは「インターネット オプション」の<a href="http://ansaikuropedia.org/wiki/仕様">仕様</a>です。</p>
+<p class="auto-style1">※これは、「インターネット オプション」の設定と逆転しています。</p>
+<h3>ヘルプ</h3>
+<p class="auto-style1">このヘルプを表示します。</p>
+<h3>Ping送信</h3>
+<p class="auto-style1">Pingを送信して、接続できたかどうかを確認します。</p>
+<p class="auto-style1">成功なら、こうなります：&lt;Ping成功&gt; アドレス:74.125.235.144  バイト:32  時間:29  TTL:52</p>
+<p>&nbsp;</p>
+<h2 class="h2"><a name="license">ライセンス</a></h2>
+<p class="auto-style1">「プロキシ サーバーを使用する」の作者は　です。GNU General Public 
+Licenseに基づき配布しております。そのため、</p>
+<ul>
+	<li>
+	<p class="auto-style1">無保証（自己責任で使用すること）</p>
+	<p class="auto-style1">誰でも自由に複製・改変・配布できる</p>
+	</li>
+	<li>
+	<p class="auto-style1">配布するときは著作権表示をする</p>
+	</li>
+	<li>
+	<p class="auto-style1">配布するときはライセンスを継承する（頒布するアプリケーションもGNU General Public 
+	Licenseに基づき配布する）</p>
+	</li>
+</ul>
+<p class="auto-style1">ということを理解してお使いください。GNU General Public 
+Licenseの詳しい内容は、<a href="gpl.txt">gpl.txt</a>（英語・見られない場合は、<a href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>）をご覧ください。</p>
+<p>&nbsp;</p>
+<h2 class="h2"><a name="other">その他</a></h2>
+<p class="auto-style1">動作確認：ASUS UL20FT-2X380（ノートPC）, Windows 7 Service Pack 1 
+64bit, .NET Framework 4 Internet Explorer 9, Chrome 17, IPv4, ワイヤレス 
+ネットワーク（かなり遅いやつ）</p>
+<p class="auto-style1">開発環境：Visual Studio 2010 Pro, Expression Web 
+4（DreamSparkで）</p>
+<p class="auto-style1">言語：C#</p>
+<p class="auto-style1">
+ある程度の注意をしておりますが、プログラミング初心者が作成したプログラムであるということをよく考えてお使いください。（テスト環境がノート一台ということも...）</p>
+<p class="auto-style1">
+&nbsp;</p>
+
+</body>
+
+</html>
