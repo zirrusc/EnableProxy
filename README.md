@@ -5,7 +5,7 @@
 
 * Author : zirrusc
 * License : GPL v3
-* Copyright : curlc 2012
+* Copyright : zirrusc 2012
 
 site : https://sites.google.com/site/zirrusc/app/enable_proxy
 
